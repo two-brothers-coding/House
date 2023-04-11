@@ -1,0 +1,75 @@
+
+
+
+.leftNavHero{
+    padding-left: 50px;
+    padding-top: 30px;
+    width: 520px;
+    .logo{
+        margin-bottom: 15px;
+    }
+    .textOne{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 24px;
+        .greenText{
+            color:  #07a77a;
+            ;
+        }
+    }
+    .ptext{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #626687b5;
+        margin-bottom: 32px;
+        ;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding-left: 24px;
+        border: 1px solid #E0E3EB;
+        gap: 16px;
+        border-radius: 32px;
+        .searchloc{
+            width: 300px;
+            margin-right: 20px;
+            border: none;
+            background-color: #ffff;
+            color: #888B97;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        .greenbtn{
+            display: flex;
+            align-items: center;
+            padding: 12px 16px;
+            background-color: #10B981;
+            gap: 4px;
+            border-radius: 32px;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 22px;
+            color: #FFFFFF;
+            margin: 4px;
+        }
+    }
+    .partnerText{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        color:#888B97 ;
+        margin-top: 32px;
+    }
+    .partnerImg{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 69px;
+    }
+}
