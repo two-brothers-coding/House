@@ -7,9 +7,11 @@ import pic1 from '../../images/traveloka_logo 1.png'
 import pic2 from '../../images/traveloka_logo 2.png'
 import pic3 from '../../images/traveloka_logo 3.png'
 import pic4 from '../../images/traveloka_logo 4.png'
+import btnArrow from '../../images/btn-arrow.png'
+
 function NavHero() {
   return (
-    <div className='container'>
+    <div className='container heroWraper'>
         
         <div className="leftNavHero">
             <img className='logo' src={logo} alt="logo"  />
@@ -30,7 +32,15 @@ function NavHero() {
         </div>
     
         <div className="rightNavHero">
-
+          
+         
+            <div className="heroLinks">
+             
+            <button className='linkBtn' to='/About'> About Us</button>
+            <button className='linkBtn' to='/Article'>Article</button>
+            <button className='linkBtn' to='/Property'>Property </button>
+            <button className='signBtn'> Sign Up!</button>
+            </div>
         </div>
     </div>
   )

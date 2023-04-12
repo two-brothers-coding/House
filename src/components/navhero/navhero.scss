@@ -1,5 +1,9 @@
 
 
+.heroWraper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 .leftNavHero{
     padding-left: 50px;
@@ -72,4 +76,30 @@
         justify-content: space-between;
         margin-right: 69px;
     }
+}
+.rightNavHero{
+    margin-right: -200px;
+    margin-top: -8px;
+    background-image: url(../../images/house-right.png);
+    background-repeat: no-repeat;
+    width: 907px;
+    height:720px ;
+    .heroLinks{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        .linkBtn{
+            padding: 8px 16px;
+            border-radius: 32px;
+            text-align: center;
+            gap: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 17.5px;
+            background-color: rgb(175, 202, 245);
+            color: #ffffff;
+        }
+        
+    }
+}
 }
