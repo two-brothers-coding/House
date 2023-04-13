@@ -20,15 +20,15 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
       element:<Home/>
     },
     {
-      path:'/About',
+      path:'/about',
       element:<About/>
     },
     {
-      path:'/Article',
+      path:'/article',
       element:<Article/>
     },
     {
-      path:'/Property',
+      path:'/property',
       element:<Property/>
     }
 
