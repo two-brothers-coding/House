@@ -86,6 +86,13 @@
     position: absolute;
     bottom: 2;
     right: 0;
-    
+    z-index: -10;
+    .people1{
+        display: flex;
+        align-items: center;
+        margin-top: -180px;
+        margin-left: 46px;
+        
+    }
 }
 }

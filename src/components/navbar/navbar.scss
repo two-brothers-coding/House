@@ -3,13 +3,16 @@
     align-items: center;
     justify-content:space-between ;
     margin-top: 40px;
+    z-index: 999;
     .logo{
         padding-left: 30px;
+       
     }
     .heroLinks{
         display: flex;
         align-items: center;
         gap: 24px;
+        margin-right: 120px;
         .linkBtn{
             padding: 8px 16px;
             border-radius: 32px;
@@ -31,6 +34,7 @@
             font-size: 14px;
             font-weight: 600;
             color: #047857;
+            cursor: pointer;
         }
     }
 }

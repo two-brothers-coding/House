@@ -8,8 +8,8 @@ import pic2 from '../../images/traveloka_logo 2.png'
 import pic3 from '../../images/traveloka_logo 3.png'
 import pic4 from '../../images/traveloka_logo 4.png'
 import pic5 from '../../images/house-right.png'
-
-
+import people from '../../images/1K Peoples.png'
+import people2 from '../../images/1K house.png'
 function NavHero() {
   return (
     <div className='container heroWraper'>
@@ -30,11 +30,16 @@ function NavHero() {
             <img src={pic3}/>
             <img src={pic4}/>
             </div>
-        </div>
+        </div> 
     
         <div className="rightNavHero">
           <img src={pic5} alt="house"  />
+         <div className="people1">
+          
+          <img src={people} alt="img" />
+          <img src={people2} alt="img" />
          
+         </div>
             
         </div>
     </div>
