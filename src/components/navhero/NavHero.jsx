@@ -33,7 +33,7 @@ function NavHero() {
         </div> 
     
         <div className="rightNavHero">
-          <img src={pic5} alt="house"  />
+          <img className='mainImg' src={pic5} alt="house"  />
          <div className="people1">
           
           <img src={people} alt="img" />

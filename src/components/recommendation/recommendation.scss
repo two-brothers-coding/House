@@ -15,6 +15,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
+        margin-bottom: -20px;
         .recText{
             font-size: 14px;
             font-weight: 500;
@@ -34,9 +35,27 @@
     .houses{
         display: flex;
         align-items: center;
+        gap: 15px;
+        margin-left: 140px;
         .link{
             display: flex;
             align-items: center;
+            width: 120px;
+            height: 52px;
+            padding: 5px 24px;
+            gap: 8px;
+            border-radius: 32px;
+            background-color: #D1FAE5;
+            cursor: pointer;
+            margin-bottom: 10px;
+            
+            .catText{
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                color: #10B981;
+                text-decoration: none;
+            }
         }
     }
 }

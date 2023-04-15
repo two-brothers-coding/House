@@ -3,6 +3,7 @@ import './recommendation.scss'
 import house from '../../images/house-fill.png'
 import villa from '../../images/villa.png'
 import apartment from '../../images/apartment.png'
+import { Link } from 'react-router-dom'
 function Recommendation() {
   return (
     <div className='houseWrapper'>
@@ -16,15 +17,15 @@ function Recommendation() {
         <div className="houses">
             <div className="link">
                 <img src={house} alt="img" />
-                <h2>House</h2>
+                <Link className='catText'>House</Link>
             </div>
             <div className="link">
                 <img src={villa} alt="img" />
-                <h2>Villa</h2>
+                <Link className='catText'>Villa</Link>
             </div>
             <div className="link">
                 <img src={apartment} alt="img" />
-                <h2>Apartment</h2>
+                <Link className='catText' >Apartment</Link>
             </div>
             
             
