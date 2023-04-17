@@ -40,7 +40,6 @@ function NavHero() {
           <img src={people2} alt="img" />
          
          </div>
-            
         </div>
     </div>
   )

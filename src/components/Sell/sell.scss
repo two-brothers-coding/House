@@ -1,0 +1,69 @@
+.sell{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 120px;
+    .leftSell{
+        .line-Wrapper{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: -50px;
+            .line{
+                width: 32px;
+                height: 1px;
+                background-color:#F59E0B ;
+            }
+            .ready{
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 17.5;
+                color: #F59E0B;
+            }
+        }
+        .info{
+            margin-top: -140px;
+            margin-left: 32px;
+            .recText{
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 40px;
+                color: #1B1C57;
+            }
+            .pText{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #626687;
+            }
+        }
+        .houseDetail{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            margin-left: 32px;
+            .detail{
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 28px;
+                color: #1B1C57;
+            }
+        }
+        .line-wapper{
+            width: 440px;
+            height: 2px;
+            background-color: #F0F3FD;
+            margin-left: 32px;
+            margin: 32px;
+        }
+        .contact{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            .btnCont{
+                border: none;
+                background-color: white;
+            }
+        }
+    }
+}
