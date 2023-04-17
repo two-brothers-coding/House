@@ -7,7 +7,7 @@ import './slider.scss'
 
 import {content} from './content';
 function Slider() {
-    console.log(content)
+    
   return (
     <div>
          <Swiper

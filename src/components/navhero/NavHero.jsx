@@ -25,10 +25,10 @@ function NavHero() {
             </div>
             <h3 className='partnerText'>Our Partnership</h3>
             <div className="partnerImg">
-            <img src={pic1}/>
-            <img src={pic2}/>
-            <img src={pic3}/>
-            <img src={pic4}/>
+            <img src={pic1} alt='image'/>
+            <img src={pic2} alt='image'/>
+            <img src={pic3} alt='image'/>
+            <img src={pic4}  alt='image'/>
             </div>
         </div> 
     
