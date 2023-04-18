@@ -49,4 +49,45 @@
             }
         }
     }
+    .rightCard{
+       
+        .profileInfo{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin-left: -30px;
+            .profileText{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                color: #3C4563;
+                margin-top: 2px;
+            }
+            
+        }
+        .text{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 32px;
+            color: #1B1C57;
+            margin-top: -20px;
+        }
+        .textP{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #626687;
+        }
+        .clock{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            .clockText{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #888B97;
+            }
+        }
+    }
 }

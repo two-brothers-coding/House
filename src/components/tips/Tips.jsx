@@ -37,11 +37,11 @@ function Tips() {
                 <h3 className='profileText'>Cameron Williamson</h3>
             </div>
             <h2 className='text'>12 Things to know before buying a house</h2>
-            <p>Want to buy a house but are unsure about what we should know, here I will try to <br/> 
+            <p className='textP'>Want to buy a house but are unsure about what we should know, here I will try to <br/> 
             explain what we should know and check when we want to buy a house</p>
             <div className="clock">
                 <img src={clock} alt="clock" />
-                <h2>8 min read | 25 Apr 2021</h2>
+                <h2 className='clockText'>8 min read | 25 Apr 2021</h2>
             </div>
         </div>
     </div>
